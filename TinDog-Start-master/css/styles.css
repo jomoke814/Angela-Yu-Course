@@ -18,6 +18,12 @@ h1 {
     line-height: 1.5;
 }
 
+h2 {
+    font-family: 'Montserrat';
+    font-weight: bold;
+    line-height: 1.2;
+}
+
 h3 {
     font-family: 'Montserrat';
     font-weight: bold;
@@ -42,7 +48,7 @@ p {
     padding: 0 18px;
 }
 
-.nav-link {
+.navbar .nav-link {
     font-size: 1.2rem;
     font-family: 'Montserrat-Light';
     font-weight: bold;
@@ -75,4 +81,26 @@ p {
     color: #ff4c68;
 }
 /* Testimonial section */
+#testimonials{
+    padding: 100px;
+    text-align: center;
+    background-color: #ef8172;
+    color: #fff;
+}
 
+.testimonial-img {
+    width: 10%;
+    border-radius: 100px;
+    margin: 20px;
+}
+
+#press {
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.press-logo {
+    width: 13%;
+    margin: 5px 20px 25px;
+}
