@@ -3,12 +3,12 @@ body {
 }
 
 #title {
-    background-color: #ff4c68;
+    background-color: #1f2937;
     color: #fff;
 }
 
 .container-fluid {
-    padding: 2% 15%;
+    padding: 2% 15% 7%;
 }
 
 h1 {
@@ -33,7 +33,6 @@ p {
     color: #8f8f8f;
 }
 /* Navbar */
-
 .navbar {
     padding: 0 0 4.5rem;
 }
@@ -59,22 +58,26 @@ p {
 }
 /* Title image */
 .title-img {
-    width: 60%;
-    transform: rotate(20deg);
+    width: 20%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 25%;
 }
 /* Features section */
 #features {
  padding: 100px;
+ background-color: #fff;
+ position: relative;
 }
 
 .feature-box {
     text-align: center;
-    padding: 20px;
+    padding: 4.5%;
 }
 
 .icon {
     color: #ef8172;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
 .icon:hover{
@@ -83,7 +86,7 @@ p {
 /* Testimonial section */
 #testimonials{
     text-align: center;
-    background-color: #ef8172;
+    background-color: #3882f6;
     color: #fff;
 }
 
@@ -98,7 +101,7 @@ p {
 }
 
 #press {
-    background-color: #ef8172;
+    background-color: #3882f6;
     text-align: center;
     padding-bottom: 40px;
 }
@@ -115,4 +118,34 @@ p {
 
 .pricing-column {
     padding: 30px 30px;
+}
+/* CTA Section */
+#cta {
+    color: #fff;
+    text-align: center;
+    background-color: #1f2937;
+    padding: 80px;
+}
+/* Footer section */
+#footer {
+    background-color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+.social-icons {
+    margin: 20px 10px;
+}
+
+/* Responsive mobile */
+@media (max-width:1028px) {
+    #title {
+        text-align: center;
+    }
+
+    .title-img {
+        position: static;
+        transform: rotate(0);
+        width: 60%;
+    }
 }
