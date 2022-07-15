@@ -1,37 +1,40 @@
 body {
     font-family: 'Montserrat';
-}
-
-#title {
-    background-color: #1f2937;
-    color: #fff;
+    text-align: center;
 }
 
 .container-fluid {
     padding: 2% 15% 7%;
 }
 
-h1 {
+h1,h2,h3 {
     font-family: 'Montserrat';
-    font-size: 3rem;
-    font-weight: 500;
-    line-height: 1.5;
-}
-
-h2 {
-    font-family: 'Montserrat';
-    font-weight: bold;
-    line-height: 1.2;
-}
-
-h3 {
-    font-family: 'Montserrat';
-    font-weight: bold;
 }
 
 p {
     color: #8f8f8f;
 }
+/* Heading class */
+.heading-text{
+    font-size: 3rem;
+    font-weight: 600;
+    line-height: 1.5;
+}
+
+.section-heading {
+    font-size: 3rem;
+    line-height: 1.2;
+}
+/* Sections */
+.colored-section {
+    background-color: #1f2937;
+    color: #fff;
+}
+
+.white-section{
+    background-color: #fff;
+}
+
 /* Navbar */
 .navbar {
     padding: 0 0 4.5rem;
@@ -56,7 +59,11 @@ p {
 .download-button {
    margin: 5% 3% 5% 0; 
 }
-/* Title image */
+/* Title*/
+#title {
+    text-align: left;
+}
+
 .title-img {
     width: 20%;
     transform: rotate(25deg);
@@ -66,12 +73,15 @@ p {
 /* Features section */
 #features {
  padding: 100px;
- background-color: #fff;
  position: relative;
 }
 
+.feature-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
 .feature-box {
-    text-align: center;
     padding: 4.5%;
 }
 
@@ -85,9 +95,12 @@ p {
 }
 /* Testimonial section */
 #testimonials{
-    text-align: center;
     background-color: #3882f6;
-    color: #fff;
+}
+
+.testimonial-text {
+    font-size: 2rem;
+    line-height: 1.2;
 }
 
 .testimonial-img {
@@ -102,7 +115,6 @@ p {
 
 #press {
     background-color: #3882f6;
-    text-align: center;
     padding-bottom: 40px;
 }
 
@@ -112,8 +124,12 @@ p {
 }
 /* Pricing Section */
 #pricing {
-    text-align: center;
     padding: 100px;
+}
+
+.price-text {
+    font-weight: bold;
+    line-height: 1.2;
 }
 
 .pricing-column {
@@ -121,15 +137,10 @@ p {
 }
 /* CTA Section */
 #cta {
-    color: #fff;
-    text-align: center;
-    background-color: #1f2937;
     padding: 80px;
 }
 /* Footer section */
 #footer {
-    background-color: #fff;
-    text-align: center;
     padding: 20px;
 }
 
